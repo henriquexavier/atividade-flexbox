@@ -1,0 +1,112 @@
+body{
+    margin: 0;
+    font-family: tahoma;
+}
+
+h2 {
+    margin:0;
+    font-size: 20px;
+    color: #5c0400;
+    font-weight: bold;
+}
+
+#total{
+    width: 980px;
+    height: auto;
+    margin: auto;
+}
+
+#topo {
+	width: 980px;
+    height: 75px;
+    margin-top: 30px;
+}
+
+#logo{
+    width: 267px;
+    height: 75px;
+    float: left;
+}
+
+#menu{
+    width: auto;
+    height: auto;
+    float: right;
+    margin-top: 25px;
+}
+
+#menu a{
+    color:#5c0400;
+    text-decoration: none;
+    margin-left: 50px;
+}
+
+#menu a:hover{
+    text-decoration: underline;
+}
+
+#banner {
+	width: 980px;
+    height: 400px;
+    background-color: aqua;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.container{
+    width: 980px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.coluna {
+	width: 215px;
+    height: auto;
+    font-size: 14px;
+    color:#333;
+    margin-right: 15px;
+}
+
+
+.container2{
+    width: 980px;
+    height: 60px;
+    display: flex;
+    margin: 20px;
+    background-color: #5c0400;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.saibamais {
+    margin: 20px;
+	color:white;
+    text-decoration: none;
+}
+
+.saibamais:hover {
+	text-decoration: underline;
+}
+
+
+
+#destaque h1{
+    color: white;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: normal;
+}
+
+#rodape {
+	width: 980px;
+    height: auto;
+    text-align: center;
+    text-decoration: underline;
+    color:#5c0400;
+    font-size: 14px;
+    float: left;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
